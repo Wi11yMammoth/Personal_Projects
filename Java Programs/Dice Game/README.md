@@ -10,7 +10,7 @@ and the computer starts with $100. The objective of the game is to win all the c
 ## Installation
 Download the Dice Game Folder.
 
-## Compile The Program
+## Compile The Program (Assuming you hava java installed)
 1. In the terminal navigate to the Dice Game folder.
 2. Use the command javac DiceGame.java
 3. You will now have a DiceGame java executable file.
