@@ -1,0 +1,29 @@
+# README
+
+# AUTHOR: Willoughby Peppler-Mann
+
+
+# Description (database-logger.py)
+
+This is a simple program in which I record sense hat data, from a sense hat on a raspberry pi, and store it in a SQL database.
+This program collects humidity, temperature, and pressure, and stores it in sensorDB.db. 
+
+# Description (database-data-visualizer.py)
+
+The data visualizer program reads the, temperature, humidity, and pressure, data in sensorDB.db and graphs it on screen for the user using
+the matplotlib library. 
+
+# Description (sensorDB.db)
+
+This is an sqlite3 database with a table called sensor data. The set up is as follows:
+
+sqlite3 sensorDB.db
+
+BEGIN TRANSACTION;
+
+CREATE TABLE sensordata(ID NUMERIC, tdate DATE, ttime TIME, temperature NUMERIC, humidity NUMERIC, pressure NUMERIC);
+
+COMMIT;
+
+.quit
+
