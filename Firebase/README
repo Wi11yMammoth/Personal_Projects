@@ -1,0 +1,4 @@
+# README
+
+pyrebase_notes_for_firebase.py contains a function to get realtime updates from a firebase database, and how to write a json message to firebase.
+It's basically my notes for when I need to connect to a firebase database using python. 
