@@ -1,0 +1,7 @@
+# README
+
+# DESCRIPTION
+
+thingspeak_write.py - a simple program that writes temperature, humidity, and pressure from a sense hat and writes it to a thingspeak database
+
+thingspeak-read.py - a simple program that reads data from a thingspeak database and displays it on the display of a sense hat
